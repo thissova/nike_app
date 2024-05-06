@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 7vh;
+  margin-top: 2vh;
+}
+a {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 197%;
+  letter-spacing: 0.12em;
+  color: #fff;
+  text-decoration: none;
+}

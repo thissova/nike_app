@@ -1,0 +1,70 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8vh;
+  margin-left: 10vh;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 0;
+}
+.detailedHeading {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 0;
+}
+
+.price {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 197%;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 0;
+  margin-top: 10vh;
+}
+.detailes {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 197%;
+  letter-spacing: 0.12em;
+  color: #f1ecec;
+  width: 65%;
+  margin: 0;
+  margin-top: 1vh;
+}
+
+button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 250%;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  letter-spacing: 0.1em;
+  color: #ebe1e1;
+  background-color: #585b61;
+  border: none;
+  border-radius: 25px;
+  margin-top: 5vh;
+}
+
+.image {
+  margin-top: -10vh;
+}

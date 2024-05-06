@@ -1,0 +1,23 @@
+.main {
+  height: 100vh;
+  width: 10%;
+  background: #303236;
+  text-align: center;
+}
+
+img {
+  padding-top: 3vh;
+}
+
+.tagline {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 197%;
+  letter-spacing: 0.93em;
+  color: #fff;
+  margin-top: 65vh;
+  white-space: nowrap;
+
+  transform: rotate(-90deg);
+}
